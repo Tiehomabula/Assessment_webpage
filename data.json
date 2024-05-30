@@ -1,38 +1,53 @@
 {
     "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+        "fullName" : "Tieho Ntombikayise Mabula",
+        "photo1" :"Tieho Photo.jpg",
+        "phone" : "0647278407",
+        "email" : "tiehomabula00@gmail.com",
+        "birthDate" : "22 August 2001",
+        "address": " 22 Mabula Street, Krugersdorp, 1739",
+        "photo2":"pink clouds.jpg"
+
     },
     "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
+        "institutionName" : "University of Johannesburg",
+        "photo" : "UJ Madibeng.jpg",
+        "description1" : "2023 Feb - 2024 Nov : BCom Honours in Economics",
+        "description2" : "2022 Feb - 2022 Nov :Honours Bridging Course in Economics",
+        "description3" : " 2019 Feb - 2021 Nov :BA Philosophy, Politics and Economics"
+
     },
-    "foreignLanguage" : {
-        "language" : "",
-        "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        },
-        {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        }]
+    "workExperience" : {
+        "experience1" : "2021 May - 2024 Feb: Part-time sales assistant",
+        "experience2": "2020 - Current: Part-time brand promoter",
+        "experience3": "2023 - Current: Trainee bookkeeper",
+        "photo": "Tieho promo.jpg"
     },
-    "favouriteSubjects" : [
+        
+
+
+    "skills" : 
         {
-            "name" : "",
-            "description" : ""
+            "skill1" : "Econometric modeling",
+            "skill2" : "Retail Customer Service",
+            "skill3": "Bookkeeping",
+            "skill4": "Stocktaking"
+            
         },
+
+        "hobbies":
         {
-            "name" : "",
-            "description" : ""
+          "hobby1": "Doing manicures and pedicures",
+          "hobby2":"Exercising and Fun Walks",
+          "hobby3":"Going to Church"
+
         },
-        {
-            "name" : "",
-            "description" : ""
-        }
-    ]
+        
+    "references":
+    {
+        "ref1": "Sibusiso Zungu: Church bookkeeper/Mentor",
+        "ref2": "Nompumelelo Mthembu: Former Retail Supervisor",
+        "ref3": "Pascal Gnagne: Former Microeconomics Lecturer"
+    }
+    
 }

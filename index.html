@@ -1,11 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
     <title>Document</title>
 </head>
-<body>
-    <h1>Hello World</h1>
+<div class="container">
+<body class="card-panel pink lighten-4">
+    
+    <div class="card-panel">
+        <span class="grey-text text-darken-2">
+            <h1 class="center-align" class="card-image hoverable">{{user.fullName}}</div></h1>
+ <div class="row">
+<img src="{{user.photo1}}" width="300px" class="responsive-img" alt="" srcset="" class="col s4">
+            
+                    
+   
+    <!--div class="col s12">This div is 12-columns wide on all screen sizes</div>
+                <div class="col s6"-->
+                    
+                    <div class="col s8">
+                        <span class="grey-text text-darken-2">
+                      <h2>About Ms.TN </h2>
+    <ul class="collection">
+        <li class="collection-item" > Phone Number: {{user.phone}} </li>
+        <li class="collection-item"> Email address: {{user.email}}</li>
+        <li class="collection-item"> Date of Birth: {{user.birthDate}}</li>
+        <li class="collection-item">Home address: {{user.address}}</li>
+    </ul> 
+    </span> 
+    </div>     
+    
+    <div class="col s6">
+        <span class="grey-text text-darken-2">
+        
+        <h2>My Education and Qualifications</h2>
+    I have completed all my qualifications at the {{education.institutionName}}.<!--img src="{{education.photo}}"-->
+    My qualifications include:
+    <ul class="collection" class="" >
+        <li class="collection-item" > {{education.description1}} </li>
+        <li class="collection-item"> {{education.description2}}</li>
+        <li class="collection-item">{{education.description3}}</li>
+    </ul>
+    </div>
+    <img src="{{education.photo}}" class="responsive-img" class="col s6" width="300px">
+
+    </div>
+<div class="row">
+    <div class="col s8">
+        <span class="grey-text text-darken-2">
+            <h2>My Work Experience</h2>
+    
+        <ul class="collection" class="right-align" >
+        <li class="collection-item" > {{workExperience.experience1}} </li>
+        <li class="collection-item"> {{workExperience.experience2}}</li>
+        <li class="collection-item">{{workExperience.experience3}}</li>
+    </ul>
+    </div>
+    <img src="Tieho promo.jpg" width=" 200px" class="responsive-img" class="col s2">
+</div>
+    
+    
+       
+        
+    <div class="row">
+        <div class="col s6"><span class="grey-text text-darken-2">
+            <h2>My Skills</h2>
+    <ul class="collection" >
+        <li class="collection-item" > {{skills.skill1}} </li>
+        <li class="collection-item"> {{skills.skill2}}</li>
+        <li class="collection-item">{{skills.skill3}}</li>
+        <li class="collection-item">{{skills.skill4}}</li>
+    </ul>
+        </div>
+        </span>
+            
+        
+<div class="col s6"><span class="grey-text text-darken-2">
+    <h2>My Hobbies</h2>
+  <ul class="collection" >
+    <li class="collection-item" > {{hobbies.hobby1}} </li>
+    <li class="collection-item"> {{hobbies.hobby2}}</li>
+    <li class="collection-item">{{hobbies.hobby3}}</li>
+</ul>
+    </div>
+</div>
+</span>
+    
+  
+    
+    <div class="row">
+        <div class="col s6">
+        <span class="grey-text text-darken-2">
+    <h2>My References</h2>
+<ul class="collection" >
+    <li class="collection-item" > {{references.ref1}} </li>
+    <li class="collection-item"> {{references.ref2}}</li>
+    <li class="collection-item"> {{references.ref3}}</li>
+</ul>
+</span>
+</div>
+<img src="pink clouds.jpg" width="400px" class="col s6">
+    </div>
+
+        </span>
+    
+</span>
+</span>
+
+</div>
+
+
+</div>
+</div>
+
 </body>
+
+
 </html>
